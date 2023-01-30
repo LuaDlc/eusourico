@@ -9,9 +9,7 @@ void main() {
       title: Text('Eu Sou Rico'),
     ),
     body: const Center(
-      child: Image(
-          image: NetworkImage(
-              'https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/nationalgeographic_1926777.jpg?w=710&h=888')),
+      child: Image(image: AssetImage('assets/rubi.png')),
     ),
   ));
 }
